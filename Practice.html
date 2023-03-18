@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/StylePractice.css">
+    <title>Alien Abduction Order Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <h1>Alien Abduction Order Form</h1>
+        <p>
+          Fill out the form below to place an order for an alien abduction by
+          one of our fine UFOs.
+        </p><br>
+        <fieldset>
+            <legend>Your contact information</legend>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </form><br>
+            <form>
+                <label for="phone">Your phone number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="xxxxxxxxx">
+            </form><br>
+            <form>
+                <label for="email">Your e-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@example.com">
+            </form><br>
+        </fieldset>
+        <fieldset>
+             <legend>About your abduction</legend>
+            <form>
+                <label for="Requesteddate">Requested date:</label><br>
+                <input type="date" id="Requesteddate" name="resquesteddate">
+            </form><br>
+            <form>
+                <label for="numbers">How many people would you like to be abducted?</label><br>
+                <input type="number" id="numbers" name="numbers">
+            </form><br>
+            <form>
+                <label for="UFO">What type of UFO do you prefer?</label><br>
+                <input type="checkbox" name="UFO1" id="UFO1" value="Classical_oval_UFO">
+                <label for="UFO1">Classical oval UFO</label><br>
+                <input type="checkbox" id="UFO2" name="UFO2" value="Star_Wars-style_Imperial_cruiser">
+                <label for="UFO2">Star Wars-style Imperial cruiser</label><br>
+                <input type="checkbox" id="UFO3" name="UFO3" value="Battlestar_Galactica-style_Viper">
+                <label for="UFO3">Battlestar Galactica-style Viper</label><br>
+                <input type="checkbox" id="UFO4" name="UFO4" value="Borg-style_cube">
+                <label for="UFO4">Borg-style cube</label><br>
+            </form><br>
+            <form>
+                <label for="Abduction">What type of abduction experience do you want?</label><br>
+                <select name="Abduction" id="Abduction">
+                    <option value="Tour">Tour of the solar system</option>
+                    <option value="AlienDinner">Alien dinner and discussion</option>
+                    <option value="AlienDance">Alien dance lessons</option>
+                    <option value="Whale">Whale watching</option>
+                </select> 
+            </form><br>
+            <form>
+            <label>Special requests:</label><br>
+            <textarea rows="15" cols="40" name="Requests">
+            </textarea>
+        </form><br>
+        <form>
+            <input type="radio" name="emaillist" id="emaillist" value="addme">
+            <label for="emaillist">Add me to your email list</label>
+        </form><br>
+        <button type="button">Submit</button>
+        </fieldset>
+      </section>
+      <aside>
+        <fieldset>
+        <legend>Our Location</legend>
+        <address>
+          EDIT. - Disruptive Digital Education &middot; Alameda D.Afonso
+          Henriques, 7A &middot; 1900-178, Lisboa
+        </address>
+        </fieldset>
+      </aside>
+    </div>
+  </body>
+</html>
